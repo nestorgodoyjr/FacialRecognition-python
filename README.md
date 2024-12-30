@@ -1,5 +1,11 @@
 # FacialRecognition-python
+Install venv
+    python3 -m venv venv
+
+Run venv:
+    source venv/bin/activate    
 Install Required Libraries
+
     pip install opencv-python
     pip install numpy
     pip install face_recognition
