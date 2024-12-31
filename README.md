@@ -9,6 +9,11 @@ Install Required Libraries
     pip install opencv-python
     pip install numpy
     pip install face_recognition
+    pip install git+https://github.com/ageitgey/face_recognition_models
+
+        note if you cant install required libraries use pip install <library> --break-system-packages
+             if problem installing face_recognition try this pip list | grep setuptools
+
 
 The face_recognition library also requires dlib, which may need system-specific dependencies. Install dlib using:
 
