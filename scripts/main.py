@@ -3,6 +3,8 @@ import numpy as np
 import sqlite3
 import face_recognition
 
+print("Face recognition and models imported successfully.")
+
 # Function to fetch all people from the database
 def fetch_people():
     conn = sqlite3.connect('../database/people.db')
